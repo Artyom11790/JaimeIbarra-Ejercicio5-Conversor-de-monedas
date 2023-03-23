@@ -15,7 +15,7 @@ def Convertir():
         if CM.get()=="MXN":
 
             if MA.get()=="USD":
-                resultado = moneda.get()*19.00
+                resultado = moneda.get()*19.30
                 B.config(text=f'{resultado} MXN')
 
             if MA.get()=="EUR":
